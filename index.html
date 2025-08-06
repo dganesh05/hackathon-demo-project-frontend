@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Code for Change is a student-led hackathon focused on solving local challenges. Join us to code with purpose, build with heart, and make a real impact!"
+    />
+    <meta
+      property="og:title"
+      content="Code for Change - Code with purpose. Build with heart."
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://yourdomain.com/path-to-your-event-image.svg"
+    />
+    <meta property="og:url" content="https://yourdomain.com/" />
+    <meta name="author" content="Code for Change Team" />
+    <meta name="keywords" content="hackathon, coding, social impact, students, community" />
+    <title>Code for Change - Code with purpose. Build with heart.</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="./assets/heart.svg" />
+  </head>
+
+  <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <header role="banner">
+      <nav role="navigation" aria-label="Main navigation">
+        <ul>
+          <li><a href="#header-hero">Back to Top</a></li>
+          <li><a href="#about">About the Event</a></li>
+          <li><a href="#expect">What to Expect</a></li>
+          <li><a href="#schedule">Schedule</a></li>
+          <li><a href="#schedule">Schedule</a></li>
+          <li><a href="#resources">Resources</a></li>
+          <li><button id="theme-button">Toggle Dark Mode</button></li>
+        </ul>
+      </nav>
+
+      <section id="header-hero" aria-labelledby="main-heading">
+        <div class="header-item">
+          <img
+            id="header-img"
+            src="./assets/heart.svg"
+            alt="Code for Change logo - Pixelated Heart representing technology with compassion"
+            role="img"
+            loading="lazy" aria-hidden="true" 
+          />
+        </div>
+        <div class="header-item">
+          <h1 id="site-title">Code for Change</h1>
+          <p id="subtitle">Code with purpose. Build with heart.</p>
+
+          <div id="button-group" role="group" aria-label="Event actions">
+            <button type="button" class="header-button" aria-describedby="signup-desc">
+              Sign Up
+            </button>
+            <span id="signup-desc" class="sr-only">Register for the hackathon event</span>
+            
+            <button type="button" class="header-button" aria-describedby="guidelines-desc">
+              Project Guidelines
+            </button>
+            <span id="guidelines-desc" class="sr-only">View project submission guidelines</span>
+            
+            <button type="button" class="header-button" aria-describedby="discord-desc">
+              Join the Discord!
+            </button>
+            <span id="discord-desc" class="sr-only">Join our Discord community</span>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <main id="main-content" role="main">
+      <section id="about" aria-labelledby="about-title">
+        <header>
+          <h2 id="about-title" class="section-title">About the Event</h2>
+        </header>
+        
+        <div id="about-container">
+          <div class="video-container">
+            <iframe
+                src="https://drive.google.com/file/d/1MuaxUQPI472b-QKx5JFCIMs3BX5Bfx6v/preview"
+                title="About Code for Change - Event Introduction Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                id="about-video"
+                allowfullscreen
+                loading="lazy">
+            </iframe>
+          </div>
+          
+          <div class="about-content">
+            <p id="section-paragraph">
+              Code for Change is a student-led hackathon focused on solving local
+              challenges like food insecurity, transportation access, and literacy.
+              Over <time datetime="PT24H">24 hours</time>, teams of 3–5 students will brainstorm, build, and
+              present digital tools that make a difference. Whether you're into
+              design, coding, or problem-solving, this event gives you the platform
+              to collaborate and innovate. No prior hackathon experience is
+              needed—just a desire to learn and make an impact.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="expect" aria-labelledby="expect-title">
+        <header>
+          <h2 id="expect-title" class="section-title">What to Expect</h2>
+          <p class="tagline">
+            A weekend of impact, innovation, and collaboration.
+          </p>
+        </header>
+        
+        <dl id="expect-list">
+          <dt><strong>Real-world Challenges</strong></dt>
+          <dd>Choose from local topics like food justice, education, or accessibility.</dd>
+          
+          <dt><strong>Mentorship</strong></dt>
+          <dd>Get feedback from experienced developers, designers, and social impact leaders.</dd>
+          
+          <dt><strong>Beginner Friendly</strong></dt>
+          <dd>Workshops, team support, and resources for first-time hackers.</dd>
+        </dl>
+      </section>
+
+      <section id="schedule" aria-labelledby="schedule-title">
+        <header>
+          <h2 id="schedule-title" class="section-title">Event Schedule</h2>
+        </header>
+
+        <div id="schedule-blocks" role="list">
+          <article class="event-block" role="listitem">
+            <header class="event-header">
+              <img class="event-img" src="./assets/coffee.svg" alt="" role="presentation" loading="lazy" aria-hidden="true"  />
+              <h3 class="event-title">
+                <time datetime="2025-07-04T18:00">Friday Evening</time> – Spark Session 
+              </h3>
+            </header>
+            <div class="event-content">
+              <p class="event-desc">
+                Meet your fellow changemakers, form your teams, and get inspired by real stories from your community.
+              </p>
+              <ul class="event-activities" aria-label="Friday evening activities">
+                <li>Community challenge briefs revealed</li>
+                <li>Mini team-forming games</li>
+                <li>Lightning talks by local organizers & developers</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="event-block" role="listitem">
+            <header class="event-header">
+              <img class="event-img" src="./assets/sun.svg" alt="" role="presentation" loading="lazy"  aria-hidden="true"  />
+              <h3 class="event-title">
+                <time datetime="2025-07-05T09:00">Saturday Morning</time> – Kickoff & Code Sprint
+              </h3>
+            </header>
+            <div class="event-content">
+              <p class="event-desc">
+                Fuel up with breakfast and hit the ground running—start coding with purpose!
+              </p>
+              <ul class="event-activities" aria-label="Saturday morning activities">
+                <li>Morning check-in and mentor welcome</li>
+                <li>Teams brainstorm solutions</li>
+                <li>Development begins: design, prototype, test</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="event-block" role="listitem">
+            <header class="event-header">
+              <img class="event-img" src="./assets/speech-bubble.svg" alt="" role="presentation" loading="lazy" aria-hidden="true" />
+              <h3 class="event-title">
+                <time datetime="2025-07-05T13:00">Saturday Afternoon</time> – Mentor Mayhem
+              </h3>
+            </header>
+            <div class="event-content">
+              <p class="event-desc">
+                Need help? Mentors are on deck for debugging, feedback, and advice.
+              </p>
+              <ul class="event-activities" aria-label="Saturday afternoon activities">
+                <li>Dedicated "ask a mentor" hours</li>
+                <li>Optional workshops (UX for good, Git crash course)</li>
+                <li>Team progress check-in</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="event-block" role="listitem">
+            <header class="event-header">
+              <img class="event-img" src="./assets/moon.svg" alt="" role="presentation" loading="lazy"  aria-hidden="true"  />
+              <h3 class="event-title">
+                <time datetime="2025-07-05T18:00">Saturday Evening</time> – Code & Recharge
+              </h3>
+            </header>
+            <div class="event-content">
+              <p class="event-desc">
+                Keep the momentum going—or take a break to recharge your brain.
+              </p>
+              <ul class="event-activities" aria-label="Saturday evening activities">
+                <li>Dinner & soft music lounge</li>
+                <li>Optional community activity (guided journaling, walk & talk)</li>
+                <li>Late-night debug zone (with snacks!)</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="event-block" role="listitem">
+            <header class="event-header">
+              <img class="event-img" src="./assets/trophy.svg" alt="" role="presentation" loading="lazy"  aria-hidden="true"  />
+              <h3 class="event-title">
+                <time datetime="2025-07-06T12:00">Sunday</time> – Demo Day & Celebration 
+              </h3>
+            </header>
+            <div class="event-content">
+              <p class="event-desc">
+                Time to share what you built and see what others have created for change.
+              </p>
+              <ul class="event-activities" aria-label="Sunday activities">
+                <li>Submit your project by <time datetime="12:00">noon</time></li>
+                <li>Live demos: <time datetime="PT5M">5 minutes</time> per team</li>
+                <li>Judging & audience choice voting</li>
+                <li>Awards + closing remarks</li>
+                <li>Celebration & team photos</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="rsvp" aria-labelledby="rsvp-title">
+        <header>
+          <h2 id="rsvp-title" class="section-title">Register for Code for Change!</h2>
+        </header>
+        <article class="rsvp-container">
+            <div class="rsvp-para">
+                <p>
+                  Ready to join a community of changemakers? RSVP now to secure 
+                  your spot at Code for Change and be part of a weekend of 
+                  innovation, teamwork, and real-world impact!
+                </p>
+            </div>
+            <div class="rsvp-participants">
+                <p id="rsvp-count">⭐ 3 people have taken part in the revolution!</p>
+                <p>🎟️ DJ from Texas has registered!</p>
+                <p>🎟️ Amy from New York has registered!</p>
+                <p>🎟️ Teresa from Montana has registered!</p>
+            </div>
+        </article>
+        <article class="form-container">
+            <form id="rsvp-form" title="rsvp-form">
+                <label for="name">Name: </label>
+                <input id="name" name="name" type="text" />
+                <label for="state">Home State: </label>
+                <input id="state" name="state" type="text" />
+                <label for="email">Email: </label>
+                <input id="email" name="email" type="email" />
+            </form>
+            <input id="rsvp-button" type="Submit" value="Register" />
+        </article>      
+      </section>
+
+      <section id="success-modal" class="modal">
+        <div class="modal-container" style="position:relative;">
+          <button id="close-button">×</button>
+          <div class="modal-item">
+            <p id="modal-text">
+              Welcome to the revolution, name! Keep an eye out for an email
+              to email@email.com with more details regarding the hackathon. 
+              Thanks for registering to make a difference!
+            </p>
+          </div>
+          <div class="modal-item">
+            <img id="modal-image" src="./assets/handshake.svg" alt="A pixelated icon of a handshake" role="presentation" loading="lazy" aria-hidden="true" />
+          </div>
+        </div>
+      </section>
+
+      <section id="resources" aria-labelledby="resources-title">
+        <header>
+          <h2 id="resources-title" class="section-title">Helpful Resources</h2>
+        </header>
+
+        <div id="resource-grid">
+          <article class="link-card">
+            <h3 class="link-title">
+              <a href="https://www.codepath.org" rel="external">
+                CodePath: Tech Excellence for Students
+              </a>
+            </h3>
+            <p class="link-desc">
+              Learn to build apps and grow as a developer—perfect for beginners
+              and aspiring professionals alike.
+            </p>
+          </article>
+
+          <article class="link-card">
+            <h3 class="link-title">
+              <a href="https://www.hackathon.guide/" rel="external">
+                Hackathon Guide by Joshua Tauberer
+              </a>
+            </h3>
+            <p class="link-desc">
+              Step-by-step advice from civic-tech hackathon veterans on choosing
+              causes, organizing ideas, and delivering impact-driven projects.
+            </p>
+          </article>
+
+          <article class="link-card">
+            <h3 class="link-title">
+              <a href="https://www.hackthepatriarchy.com/choosing-project-social-impact-hackathon/" rel="external">
+                Choosing a Cause for Social Impact
+              </a>
+            </h3>
+            <p class="link-desc">
+              Guidance on selecting meaningful problems to focus on—start small,
+              understand your role, and aim for real community value.
+            </p>
+          </article>
+
+          <article class="link-card">
+            <h3 class="link-title">
+              <a href="https://eventornado.com/blog/how-to-form-a-winning-team-for-hackathons" rel="external">
+                Form a Winning Hackathon Team
+              </a>
+            </h3>
+            <p class="link-desc">
+              Five quick tips on finding teammates early, ensuring balanced
+              skills, and assigning roles so your team can thrive under
+              pressure.
+            </p>
+          </article>
+
+          <article class="link-card">
+            <h3 class="link-title">
+              <a href="https://help.devpost.com/article/79-teamwork-tips-for-online-hackathons" rel="external">
+                Devpost Teamwork Tips
+              </a>
+            </h3>
+            <p class="link-desc">
+              Best practices for virtual collaboration—diverse roles, clear
+              communication, and positive feedback dynamics.
+            </p>
+          </article>
+
+          <article class="link-card">
+            <h3 class="link-title">
+              <a href="https://taikai.network/en/blog/hackathon-beginners-guide" rel="external">
+                Ultimate Guide for Hackathon Beginners
+              </a>
+            </h3>
+            <p class="link-desc">
+              Covers the full hackathon journey—from ideation through
+              presentation—so first-timers can confidently jump in.
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer role="contentinfo">
+      <div id="footer-info">
+        <p>&copy; 2025 Code for Change. All rights reserved.</p>
+        <address>
+          <span>Questions? </span>
+          <!-- Note: For  obfuscation, you can use HTML entities. Use the following code in JS:
+           "your email or phone".split('').map(char => `&#${char.charCodeAt(0)};`).join('') -->
+          <a href="tel:&#53;&#53;&#53;&#53;&#53;&#53;&#53;&#53;&#53;&#53;" rel="nofollow">Contact us!</a>
+          <a href="mailto:&#116;&#101;&#97;&#109;&#64;&#101;&#120;&#97;&#109;&#112;&#108;&#101;&#46;&#99;&#111;&#109;" 
+          rel="nofollow">Email Us!</a>
+        </address>
+      </div>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
